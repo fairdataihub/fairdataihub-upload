@@ -1,4 +1,4 @@
-# upload.fairdataihub.org
+# [upload.fairdataihub.org](https://upload.fairdataihub.org)
 
 A simple site for users of FAIR Data Innovations Hub projects to upload any data for the developers to use. It currently uses [UploadCare](https://uploadcare.com/) for the storage of the uploaded files.
 
