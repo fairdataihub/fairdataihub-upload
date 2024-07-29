@@ -284,10 +284,10 @@ is-core-module@^2.9.0:
   dependencies:
     has "^1.0.3"
 
-jquery@^3.6.0:
-  version "3.6.1"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.6.1.tgz#fab0408f8b45fc19f956205773b62b292c147a16"
-  integrity sha512-opJeO4nCucVnsjiXOE+/PcCgYw9Gwpvs/a6B1LL/lQhwWwpbVEVYDZ1FokFr8PRc7ghYlrFPuyHuiiDNTQxmcw==
+jquery@^3.7.1:
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.7.1.tgz#083ef98927c9a6a74d05a6af02806566d16274de"
+  integrity sha512-m4avr8yL8kmFN8psrbFFFmB/If14iN5o9nw/NgnnM+kybDJpRsAynV2BsfpTYrTRysYUdADVD7CkUUizgkpLfg==
 
 magic-string@^0.30.0:
   version "0.30.0"
@@ -361,12 +361,12 @@ uploadcare-widget-tab-effects@^1.5.0:
   integrity sha512-HSqtidqATXC/LjkvBmIFp1Nn69r0rmJ1fGmKYHZN5WX3jqaTi2XgofrXPX7GMY6PX7z3sk8y4Edv2UoA5uuJJw==
 
 uploadcare-widget@^3.18.0:
-  version "3.18.0"
-  resolved "https://registry.yarnpkg.com/uploadcare-widget/-/uploadcare-widget-3.18.0.tgz#c4bb49399bd70ebf36b9105543eda98c6ca01422"
-  integrity sha512-p50Q7i2n/NrAR0HhxcX0dmPycAwyDdvjkUs/wAOb01awmM5QMluGtkb7/Uar/wjjjJRpThsc/4328KvezdeDtQ==
+  version "3.21.4"
+  resolved "https://registry.yarnpkg.com/uploadcare-widget/-/uploadcare-widget-3.21.4.tgz#71514381d9ce5b3ab6b379250852a8be1a4f18c6"
+  integrity sha512-34FdeoLBFthIWqfnR2zsN0G2QEXTjRBMFKrhMB3NK7s3nYD8KPXkCn4xac8CkYLDrMi3diLB7DwDzDOgQg+DCA==
   dependencies:
     escape-html "^1.0.3"
-    jquery "^3.6.0"
+    jquery "^3.7.1"
 
 vite@^4.0.0:
   version "4.0.4"
