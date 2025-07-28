@@ -122,6 +122,11 @@
   resolved "https://registry.yarnpkg.com/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.0.tgz#3188bcb273a414b0d215fd22a58540b989b9409a"
   integrity sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==
 
+"@uploadcare/cname-prefix@^6.16.2":
+  version "6.17.0"
+  resolved "https://registry.yarnpkg.com/@uploadcare/cname-prefix/-/cname-prefix-6.17.0.tgz#9d18e6bc673a9a3fb87e66195aa3d2af6a0251ab"
+  integrity sha512-UqomH1TtegTmltLhwnKTN4fPNzUlXx6LQZj0YNIkiA726ih+ao6oPS9ER1rvz/XX4e5EOl7/aj+AHHIscLPncQ==
+
 "@vitejs/plugin-vue@^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue/-/plugin-vue-4.0.0.tgz#93815beffd23db46288c787352a8ea31a0c03e5e"
@@ -371,10 +376,11 @@ uploadcare-widget-tab-effects@^1.5.0:
   integrity sha512-HSqtidqATXC/LjkvBmIFp1Nn69r0rmJ1fGmKYHZN5WX3jqaTi2XgofrXPX7GMY6PX7z3sk8y4Edv2UoA5uuJJw==
 
 uploadcare-widget@^3.18.0:
-  version "3.21.4"
-  resolved "https://registry.yarnpkg.com/uploadcare-widget/-/uploadcare-widget-3.21.4.tgz#71514381d9ce5b3ab6b379250852a8be1a4f18c6"
-  integrity sha512-34FdeoLBFthIWqfnR2zsN0G2QEXTjRBMFKrhMB3NK7s3nYD8KPXkCn4xac8CkYLDrMi3diLB7DwDzDOgQg+DCA==
+  version "3.23.3"
+  resolved "https://registry.yarnpkg.com/uploadcare-widget/-/uploadcare-widget-3.23.3.tgz#096ae4e5bc0be0b29050409aa62db1c018010abd"
+  integrity sha512-Ch/MZdAaYqqm/nKg3uoW1VEJ2V/Wr8vsrx8qU20Uo/f/PRshK15KwkmZokbEoq/NAbW3+xAGzwW2BJWi+pnMpw==
   dependencies:
+    "@uploadcare/cname-prefix" "^6.16.2"
     escape-html "^1.0.3"
     jquery "^3.7.1"
 
